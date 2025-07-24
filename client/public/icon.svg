@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="url(#gradient)"/>
+  
+  <!-- Main Icon -->
+  <g transform="translate(128, 128)">
+    <!-- Calculator/Split Icon -->
+    <rect x="32" y="32" width="192" height="192" rx="24" fill="white" opacity="0.9"/>
+    
+    <!-- Split Lines -->
+    <line x1="64" y1="96" x2="192" y2="96" stroke="#3b82f6" stroke-width="4" stroke-linecap="round"/>
+    <line x1="64" y1="128" x2="192" y2="128" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round"/>
+    <line x1="64" y1="160" x2="192" y2="160" stroke="#3b82f6" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Currency Symbol -->
+    <circle cx="80" cy="80" r="16" fill="#10b981"/>
+    <text x="80" y="88" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">₹</text>
+    
+    <!-- Users Icon -->
+    <circle cx="176" cy="80" r="12" fill="#3b82f6"/>
+    <circle cx="192" cy="80" r="12" fill="#8b5cf6"/>
+    <circle cx="184" cy="96" r="8" fill="#10b981"/>
+  </g>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
