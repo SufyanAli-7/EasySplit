@@ -129,6 +129,3 @@ client/
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
-
-Project Link: [https://github.com/Qaswar-01/EasySplit](https://github.com/Qaswar-01/EasySplit)
