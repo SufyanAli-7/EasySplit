@@ -8,7 +8,7 @@ import GroupDetail from './features/groups/GroupDetail';
 import ExpenseTracker from './features/expenses/ExpenseTracker';
 import Layout from './components/layout/Layout';
 
-// Page components
+// Page components Good
 const DashboardPage = () => (
   <Layout>
     <Dashboard />
